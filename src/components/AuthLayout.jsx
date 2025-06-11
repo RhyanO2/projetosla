@@ -10,6 +10,6 @@ function AuthLayout({children,image}){
                 {children}
             </div>
         </div>
-    )
+    );
 }
 export default AuthLayout

@@ -1,3 +1,6 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .auth-container {
     display: flex;
     height: 100vh;
@@ -44,13 +47,15 @@
 .auth-form button:hover {
     background-color: #0056b3;
 }
-
+button{
+    border-radius: 9px;
+}
 @media (max-width: 768px){
     .auth-container {
         flex-direction: column;
     }
     .auth-image {
-        height: 40km;
+        height: 40vh;
     }
     .auth-form {
         height: auto;
